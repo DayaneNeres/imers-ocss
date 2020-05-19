@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://image.freepik.com/fotos-gratis/rosas-frescas-de-rosa-dispostas-em-fundo-turquesa_23-2148058638.jpg');
+    background-size: auto 50vh;
+    font-family: Arial;
+    height: 100;
+} 
+
+.menu {
+    background-color: aliceblue;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+
