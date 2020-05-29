@@ -1,21 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
-    <title>Dayane Neres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite DN</title>
     <link rel="stylesheet" href="css/estilos.css">
-    </head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+   >
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
     <header>
-        <nav class='menu'>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifório</a></li>
-                <li><a href="#">Redes Sociais</a></li>
-            </ul>
-        </nav>
-        <h1 classes="site-title">Dayane Neres</h1>
-        <h2 classes="site-subtitle">Jr. FrontEnd Developer</h2>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Photos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">D.Neres</h1>
+        <h2 class="site-subtitle">jr. frontend developer</h2>
+      </div>
     </header>
-</body>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="./img/natal.jpg" alt="Dayane Neres">
+      </figure>
+
+      <p>
+        Web Site desenvolvido por D. Neres sobre tutora dos professores do ALura Cursos, diponibilizado gratuitamente 
+        para desenvolvedores em formação. 
+          Durante a pandemida do COVID-19 várias plataformas de estudos online disponibilizaram gratuitamente cursos para estudantes da área aprenderem um pouco mais a desenvolvedores
+          web sites, esse por exemplo foi feito uma página pessoal, mas usando a critavidade esse modelo de site pode ser usado para outros vários tipos páginas.
+
+      </p>
+
+      <p>
+        Esse site foi desenvolvido no intuito de promover um aprendizado na prática em programção html frontend.
+        Ele vai ser apresentado para professora do 3° período de Gestão da Tecnologia e Informação do Centro Universitário de Guanambi - UNIFG
+        Raissa Arruda.
+      </p>
+
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        😻
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Photos</h2> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/farra.jpg" alt="Dayane">
+            </figure>
+            <div class="card-back">
+              <h3>Photo One</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/hobby.jpg" alt="Dayane">
+            </figure>
+            <div class="card-back">
+              <h3>Hobby</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/hipster.jpg" alt="Dayane">
+            </figure>
+            <div class="card-back">
+				      <h3>Hobby</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/hobby3.jpg" alt="Like a Boss">
+            </figure>
+            <div class="card-back">
+              <h3>Like a Boss</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/dayane.jpg" alt="Girl">
+            </figure>
+          <div class="card-back">
+            <h3>Handstand</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <p>
+
+      </p>
+      <h2>Contato</h2>
+      <p>
+
+      </p>  
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/DayaneNeres">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/day.neresss/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
